@@ -29,6 +29,11 @@
         echo "<dt> $key <dd> $value";
       }
       echo "</dl>";
+      // implode() transfers array into string 
+      $string_month = implode(';', $month);
+      echo $string_month;
+      $array_month = explode(';', $string_month);
+      echo $array_month;
     ?>
   </body>
 </html>
