@@ -1,4 +1,5 @@
 <?php
+# MySQLi connection, functional approach
 $host='localhost:3306';
 $user='mike';
 $pass='easysteps';
