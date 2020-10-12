@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Basic PHP template </title>
+    <title> Basic PHP template - sorting arrays</title>
   </head>
   <body>
     <?php
       #write traditional greatings;
-      echo 'Hello, World!';
+      echo '<h1>Basic PHP template - sorting arrays</h1>';
       $cars=array(
         'Dodge'=>'Viper',
         'Chevrolet'=>'Camaro',
