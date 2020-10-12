@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Basic PHP template </title>
+    <title> Basic php template - arithmetics </title>
   </head>
   <body>
     <?php
-      #write traditional greatings;
-      echo 'Hello, World!';
+      #Basic arithmetics
+    echo '<h1>Basic php template - arithmetics </h1>';
       $a=4;
       $b=8;
+      
       $result=$a+$b;
       echo "Addition: $result<br>";
 
