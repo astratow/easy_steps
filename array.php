@@ -1,11 +1,13 @@
 <!DOCTYPE HTML>
+<!-- File showing arrays -->
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Basic PHP template </title>
+    <title> Basic PHP template - arrays </title>
   </head>
   <body>
-    <?php
+<?php
+      echo "<h1>Basic PHP template - arrays </h1>" ;
       #write traditional greatings;
       $day = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
       foreach($day as $value){
