@@ -7,7 +7,7 @@
   <body>
     <?php
       #write traditional greatings;
-      echo 'Hello, World!';
+      echo '<h1>Hello, World!</h1>';
     ?>
 
   </body>
