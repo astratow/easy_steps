@@ -16,6 +16,7 @@
         echo "Yes AND No returns $result <br>";
       $result=($yes&&$yes)?'TRUE':'FALSE';
         echo "Yes AND Yes returns $result <br>";
+      echo '<hr>';
        $result=($no||$no)?'TRUE':'FALSE';
         echo "No OR No returns $result <br>";
       $result=($yes||$no)?'TRUE':'FALSE';
