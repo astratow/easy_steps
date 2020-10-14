@@ -27,15 +27,21 @@
                       'dec' => 'December'
       );
       echo '<dl>';
+      $months=array(1=>'January','Ferbuary','March','April','May','June','July','August','September','October','November','December');
+      
       foreach($month as $key => $value){
         echo "<dt> $key <dd> $value";
       }
       echo "</dl>";
-      // implode() transfers array into string 
+      foreach($months as $key => $value){
+          echo "<dt> $key <dd> $value";
+      }
+      echo "</dl>";
+     // implode() transfers array into string 
       $string_month = implode(';', $month);
       echo $string_month;
-      $array_month = explode(';', $string_month);
-      echo $array_month;
+#      $array_month = explode(';', $string_month);
+#      echo $array_month;
     ?>
   </body>
 </html>
