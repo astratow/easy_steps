@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-#write traditional greetings;
+    #write traditional greetings;
       echo '<h1>Performing for loops</h1>';
       for($i=1; $i<4; $i++){
         echo "<dt>Outer loop iteration $i";
