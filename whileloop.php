@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-      #write traditional greatings;
+      #write traditional greetings;
       echo '<h1>While Loops </h1>';
       $numbers = array(10, 20, 30, 40, 50);
       echo  '<dt><h4>While Loop:</h4>';
