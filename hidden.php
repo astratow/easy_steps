@@ -13,7 +13,7 @@
       $user='Artur';
 
       echo '
-        <form action="hidden_handler.php method="POST">
+        <form action="hidden_handler.php" method="POST">
         <fieldset>
         <legend>Send us your comments</legend>
         <textarea rows="5" col="20" name="comment">
