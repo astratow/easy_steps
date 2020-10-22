@@ -1,42 +1,42 @@
 README.md
 
 action.php
-2020-10-18
+2020.10.18
 
 action_handler.php
-2020-10-18 
+2020.10.18 
 
 argument.php
-2020-10-17
+2020.10.17
 
 arithmetic.php
-2020-10-12
+2020.10.12
 
 array.php
-2020-10-14
+2020.10.14
 
 breakcontinue.php
-2020-10-16
+2020.10.16
 
 change.log
 
 comparision.php
-2020-10-13
+2020.10.13
 
 connectDB.php
-2020-10-12
+2020.10.12
 
 constant.php
-2020-10-14
+2020.10.14
 
 easy.php
-2020-10-07
+2020.10.07
 
 forloop.php
-2020-10-16
+2020.10.16
 
 function.php
-2020-10-17
+2020.10.17
 
 hidden.php
 *created 21.10.2020
@@ -44,11 +44,11 @@ hidden.php
 hidden_handler.php
 *created 21.10.2020
 
-html-template.html
-2020-10-09
+html.template.html
+2020.10.09
 
 ifelse.php
-2020-10-15
+2020.10.15
 
 isset.php
 created 18.10.2020  as part of mini project
@@ -57,28 +57,31 @@ isset_handler.php
 created 18.10.2020  as part of mini project
 
 logic.php
-2020-10-14
+2020.10.14
 
 matrix.php
-2020-10-13
+2020.10.13
 
 require.php
-2020-10-07
+2020.10.07
 
 return.php
-2020-10-18
+2020.10.18
 
 single.php
 *created 21.10.2020
 
 sort.php
-2020-10-21
+2020.10.21
+
+sticky.php
+*created 22.10.15
 
 switch.php
-2020-10-15
+2020.10.15
 
 template.php
-2020-10-16
+2020.10.16
 
 valid.php
 *created 19.10.2020 as a part in mini project
@@ -88,4 +91,4 @@ valid_handler.php
 *20.10.2020 past tests and it is working now
 
 whileloop.php
-2020-10-16
+2020.10.16
