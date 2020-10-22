@@ -26,6 +26,27 @@
     <?php 
       if($_SERVER['REQUEST_METHOD']=='POST'){
         #Statements to be inserted here
+        #if statement checks if request method is POST
+        $errors=array();
+        if(empty($_POST['name'])){
+          $errors[]='name';
+        }else{
+          $name=trim($_POST['name']);
+        }
+        if(empty($_POST['email'])){
+          $errors[]='email';
+        }else{
+          $email=trim($_POST['email']);
+        }
+        if(!empty($errors)){
+          echo'Error! Please enter your';
+            foreach($errors as $msg){
+              echo "-$msg";
+            }
+        }else{
+          echo "Success! Thanks $name";
+        }
+
       }
     ?>
   </body>
