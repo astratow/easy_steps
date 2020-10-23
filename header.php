@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title> Basic PHP template </title>
+    <title> <?PHP echo $page_title;?> </title>
+    <link rel="stylesheet" href="includes/style.css">
   </head>
   <body>
-    <?php
-      #write traditional greetings;
-      echo '<h1>Hello, World!</h1>';
-    ?>
+    <h1>Page Header</h1>
 
   </body>
 </html>
