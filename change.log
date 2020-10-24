@@ -32,11 +32,17 @@ constant.php
 easy.php
 2020.10.07
 
+footer.php
+*created 23.10.2020
+
 forloop.php
 2020.10.16
 
 function.php
 2020.10.17
+
+header.php
+*created 23.10.2020
 
 hidden.php
 *created 21.10.2020
@@ -49,6 +55,9 @@ html.template.html
 
 ifelse.php
 2020.10.15
+
+include.php
+*23.10.2020 created
 
 isset.php
 created 18.10.2020  as part of mini project
