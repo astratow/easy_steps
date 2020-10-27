@@ -18,7 +18,11 @@
 			echo "<p>$id is an incorrect ID!</p>";
 		}
 		}
+<<<<<<< HEAD
 	
+=======
+	}
+>>>>>>> ecb2184dafe609e9fff006a457306dacf9e5f1bb
 	echo '<form action="header2.php" method="POST">
 		<fieldset><legend>Enter Your User ID</legend>
 		<p>ID: <input type="text" name="id"></p>
