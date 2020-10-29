@@ -1,0 +1,32 @@
+TYPE            VALUE
+INT             An integet -2147483648 to2147483647
+DECIMAL         A floating point number that can specify
+                the number of permissible digits. For Example
+                DECIMAL (5,2) perimit -999.99 to 999.99
+DOUBLE          A double-precision floating point number
+DATE            A date in YYY-MM-DD format
+TIME            A time in HH:MM:SS format
+DATETIME        A comibined date and time in the format
+                YYYY-MM-DD HH:MM:SS
+YEAR            A year 1901-2155 in either YY or YYYY format
+TIMESTAMP       Automatic date and time of last record entry
+CHAR()          A string of defined FIXED length up to 255 
+                characters long.
+                For example:
+                CHAR(100) pads a smaller string to make it 
+                100 characters long
+VARCHAR()       A string of VARIABLE length up to 255 characters 
+                long that is stored without padding.
+TEXT            A string up to 65535 characters long
+BLOB            A binary type for variable data
+ENUM            A single string value from a defined list.
+                For example:
+                ENUM("red", "green", "blue")
+                allows entry of any on of these three 
+                colours only.
+SET             A string or multiple strings from a defined
+                list. 
+                For example:
+                SET("red", "green","blue")
+                allows entry of any one, or more of these colours.
+
