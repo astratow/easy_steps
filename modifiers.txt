@@ -1,0 +1,18 @@
+Modifier           # Purpose
+*************************************************************************
+NOT NULL           # Insists that record must include a data value
+                   # in this column
+#########################################################################
+UNIQUE             # Insists that record may not duplicate any entry
+                   # in this column
+#########################################################################
+AUTO_INCREMENT     # Available only for numeric columns, to automatically
+                   # generate a number that is one more than the previous
+                   # value in that columne
+#########################################################################
+DEFAULT            # Specifies a value to be used where no value is
+                   # stated foor this column when a record is
+                   # inserted
+#########################################################################
+PRIMARY KEY        # Specifies the column or columns to be used as the
+                   # the primary key for that table
