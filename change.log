@@ -1,4 +1,7 @@
-README.md
+README.md Q\VBNVMKJHG[POI
+
+
+
 
 action.php
 2020.10.18
@@ -84,6 +87,12 @@ logic.php
 
 matrix.php
 2020.10.13
+
+modifiers.sql
+*1.11.2020 created
+
+primary_key.sql
+*1.11.2020 created 
 
 require.php
 2020.10.07
