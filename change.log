@@ -12,6 +12,10 @@ action_handler.php
 argument.php
 2020.10.17
 
+alter_data.sql
+*1.11.2020 created
+*2.11.2020 fixed
+
 arithmetic.php
 2020.10.12
 
@@ -68,6 +72,9 @@ ifelse.php
 
 include.php
 *23.10.2020 created
+
+insert_data.sql
+*2.11.2020 created
 
 isset.php
 created 18.10.2020  as part of mini project
