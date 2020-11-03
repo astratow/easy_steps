@@ -1,7 +1,4 @@
-README.md Q\VBNVMKJHG[POI
-
-
-
+README.md 
 
 action.php
 2020.10.18
@@ -37,7 +34,10 @@ constant.php
 create_table.sql
 29.10.2020 created
 
-dataType.txt
+data_types.sql
+*29.10.2020 created
+
+dataTypes.txt
 29.10.2020 created. data typer cheatsheet
 
 easy.php
@@ -96,6 +96,9 @@ matrix.php
 2020.10.13
 
 modifiers.sql
+*1.11.2020 created
+
+modifiers.txt
 *1.11.2020 created
 
 primary_key.sql
