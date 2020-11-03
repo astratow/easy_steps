@@ -40,6 +40,9 @@ data_types.sql
 dataTypes.txt
 29.10.2020 created. data typer cheatsheet
 
+delete_from.sql
+3.11.2020 created and tested
+
 easy.php
 2020.10.07
 
@@ -127,6 +130,9 @@ template.php
 
 update_all.sql
 *2.11.2020 created
+
+update_where.sql
+*3.11.2020 created and tested
 
 valid.php
 *created 19.10.2020 as a part in mini project
