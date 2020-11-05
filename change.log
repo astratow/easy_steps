@@ -41,7 +41,7 @@ dataTypes.txt
 29.10.2020 created. data typer cheatsheet
 
 delete_from.sql
-3.11.2020 created and tested
+*3.11.2020 created and tested
 
 easy.php
 2020.10.07
@@ -112,6 +112,12 @@ require.php
 
 return.php
 2020.10.18
+
+selection.sql
+*created 4.11.2020
+
+select_columns.sql
+*created 4.11.2020
 
 single.php
 *created 21.10.2020
