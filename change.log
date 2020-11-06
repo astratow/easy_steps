@@ -104,6 +104,9 @@ modifiers.sql
 modifiers.txt
 *1.11.2020 created
 
+order_by.sql
+*6.11.2020 created
+
 primary_key.sql
 *1.11.2020 created 
 
@@ -118,6 +121,9 @@ selection.sql
 
 select_columns.sql
 *created 4.11.2020
+
+select_rows.sql
+5.11.2020 created
 
 single.php
 *created 21.10.2020
