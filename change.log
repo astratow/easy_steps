@@ -113,8 +113,14 @@ order_by.sql
 primary_key.sql
 *1.11.2020 created 
 
+query.php
+*8.11.2020 created
+
 require.php
 2020.10.07
+
+result.php
+*9.11.2020 created
 
 return.php
 2020.10.18
