@@ -18,5 +18,17 @@ function show_records($dbc){
   }
 }
 show_records($dbc);
+
+$query = 'INSERT INTO towels(name, color, price)
+          VALUES ("Sunset", "Orange", 9.99)';
+$result = mysqli_query($dbc, $query);
+if($result){
+  show_records($dbc);
+}else{
+  echo '<p>' . mysqli_error($dbc) . '</p>';
+
+}
+mysqli_close($dbc);
+
 ?>
 
