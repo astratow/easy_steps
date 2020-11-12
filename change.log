@@ -158,6 +158,10 @@ switch.php
 template.php
 2020.10.16
 
+update.php
+*11.11.2020 created
+*12.11.2020 updated
+
 update_all.sql
 *2.11.2020 created
 
@@ -170,6 +174,9 @@ valid.php
 valid_handler.php 
 *created 19.10.2020 as part of mini project
 *20.10.2020 past tests and it is working now
+
+validate.php
+*12.11.2020 created
 
 whileloop.php
 2020.10.16
