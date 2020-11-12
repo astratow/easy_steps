@@ -13,5 +13,13 @@ function show_records($dbc){
       echo '<p>' . mysqli_error($dbc) . '</p>';
     }
   }
+show_records($dbc);
+$query = 'UPDATE watches SET style="Gent" WHERE style="Ladies"';
+$result = mysqli_query($dbc, $query);
+if(mysqli_affected_rows($dbc) == 2){
+  echo '<hr>' . mysqli_affected_rows($dbc) . ' Records Updated...';
   show_records($dbc);
-  ?>
+}
+mysqli_close($dbc);
+
+?>
