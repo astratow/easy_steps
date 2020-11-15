@@ -17,7 +17,7 @@
         if(empty($_POST['first_name'])){
           $errors[]='Enter your first name';
         }else{
-          $fn = msqli_real_escape_string($dbc, trim($_POST['first_name']));
+          $fn = mysqli_real_escape_string($dbc, trim($_POST['first_name']));
         }
         #step5
         if(empty($_POST['last_name'])){
