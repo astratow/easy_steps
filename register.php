@@ -15,7 +15,7 @@
         $errors = array();
         #step4
         if(empty($_POST['first_name'])){
-          $errors[]='Enter your first name';
+          $errors[]='Enter your first name.';
         }else{
           $fn = mysqli_real_escape_string($dbc, trim($_POST['first_name']));
         }
@@ -26,7 +26,7 @@
           $ln = mysqli_real_escape_string($dbc, trim($_POST['last_name']));
         }
         #step6
-        if($empty($_POST['email'])){
+        if(empty($_POST['email'])){
           $errors[] = 'Enter your email address.';
         }else{
           $e = mysqli_real_escape_string($dbc, trim($_POST['email']));
@@ -54,7 +54,7 @@
         if(empty($errors)){
           $q = "INSERT INTO users 
                 (first_name, last_name, email, pass, reg_date)
-                VALUES('$f', '$ln', '$e', SHA2('$p', 256), NOW()";
+                VALUES('$fn', '$ln', '$e', SHA2('$p', 256), NOW()";
           $r = mysqli_query($dbc, $q);
 
           if($r){
@@ -63,13 +63,13 @@
                   <p><a href="login.php">Login</a>';
             }
             mysqli_close($dbc);
-            include('includes/footer.html');
+            include('includes/footer.php');
             exit();
         }else{
           echo '<h1>Error!</h1>
                 <p id="err_msg">The following eror(s) occurred:<br>';
           foreach($errors as $msg){
-            echo "-$msg<br>";
+            echo "- $msg<br>";
           }
           echo 'Please try again.</p>';
           mysqli_close($dbc);
