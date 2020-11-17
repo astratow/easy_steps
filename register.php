@@ -54,9 +54,10 @@
         if(empty($errors)){
           $q = "INSERT INTO users 
                 (first_name, last_name, email, pass, reg_date)
-                VALUES('$fn', '$ln', '$e', SHA2('$p', 256), NOW()";
+                VALUES('$fn', '$ln', '$e', SHA2('$p', 256), NOW())";
+			#echo $q;
           $r = mysqli_query($dbc, $q);
-
+		 
           if($r){
             echo '<h1>Registered!</h1>
                   <p>You are now registered.</p>
