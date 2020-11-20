@@ -12,7 +12,7 @@
       function load($page='login.php'){
         #statements here
         #step 2
-        $url='http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF'];
+        $url='http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']);
         #step 3
         $url = rtrim($url, '/\\');
         $url .= '/'. $page;
