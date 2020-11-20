@@ -21,7 +21,7 @@
     ?>
     <!--step3-->
     <h1>Login</h1>
-    <form action="loging_action.php" method="POST">
+    <form action="login_action.php" method="POST">
       <p>
         Email address: <input type="text" name="email">
       </p> 
