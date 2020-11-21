@@ -52,7 +52,7 @@
             $errors[] = 'Email address and password not found.';
           }
         }
-        return array(false, $errors):
+        return array(false, $errors);
       }
       
     ?>
