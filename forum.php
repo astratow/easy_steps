@@ -37,11 +37,8 @@
         echo '<p>There are currently no messages.</p>';
       }
       #step 7
-      echo '<p>
-        <a href="post.php">Post Message</a> |
-        <a href="shop.php">Shop Message</a> |
-        <a href="home.php">Home Message</a> |
-        <a href="goodbye.php">Goodbye Message</a></p>';
+	  require('links.php');
+      echo $links;
       #step 8
       mysqli_close($dbc);
       #step 9
