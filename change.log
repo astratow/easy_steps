@@ -37,8 +37,14 @@ constant.php
 count.php
 *11.11.2020 created
 
+create_forum.sql
+*21.11.2020 created
+
 create_table.sql
 29.10.2020 created
+
+create_users.sql
+*14.11.2020 created
 
 data_types.sql
 *29.10.2020 created
@@ -52,11 +58,17 @@ delete_from.sql
 easy.php
 2020.10.07
 
+error.php
+*14.11.2020 created
+
 footer.php
 *created 23.10.2020
 
 forloop.php
 2020.10.16
+
+forum.php
+*21.11.2020 created
 
 function.php
 2020.10.17
@@ -72,6 +84,9 @@ hidden.php
 
 hidden_handler.php
 *created 21.10.2020
+
+home.php
+*21.11.2020 created
 
 html.template.html
 2020.10.09
@@ -98,11 +113,24 @@ link.php
 *24.10.2020 created
 *25.10.2020 functionality added
 
+links.php
+*22.11.2020 created
+*23.11.2020 updated
+
 location.php 
 *28.10.2020 created
 
 logic.php
 2020.10.14
+
+login.php
+*20.11.2020 created
+
+login_action.php
+*20.11.2020 created
+
+login_tools.php
+*20.11.2020 created
 
 matrix.php
 2020.10.13
@@ -116,11 +144,17 @@ modifiers.txt
 order_by.sql
 *6.11.2020 created
 
+post.php
+*22.11.2020 created
+
 primary_key.sql
 *1.11.2020 created 
 
 query.php
 *8.11.2020 created
+
+register.php
+*17.11.2020 created
 
 require.php
 2020.10.07
