@@ -28,7 +28,8 @@
         }
         #statements
         #step 6
-        if(!empty($_POST['subject'])&&!empty($_POST['message'])){
+        if(!empty($_POST['subject']) && !empty($_POST['message']) )
+		{
           require('../connectDB.php');
           $query = "INSERT INTO forum
                       (first_name, last_name, subject, message, post_date)
