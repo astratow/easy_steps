@@ -25,7 +25,7 @@
       if(mysqli_num_rows($result)>0) {
         #statement
         #step 6
-        echo '<table<tr><th>Posted By</th>
+        echo '<table><tr><th>Posted By</th>
           <th>Subject</th><th id="msg">Message</th></tr>';
         while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
           echo '<tr><td>' . $row['first_name'] . ' ' . $row['last_name'] .
