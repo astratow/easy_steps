@@ -6,7 +6,6 @@
   </head>
   <body>
     <?php
-      #write traditional greetings;
       #step 1
       session_start();
       #step 2
