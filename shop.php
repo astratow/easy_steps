@@ -39,7 +39,7 @@
         echo'<p>There are currently no items in this shop. </p>';
       }
       require('links.php');
-      include('incluides/footer.php');
+      include('includes/footer.php');
 
     ?>
 
