@@ -28,7 +28,7 @@
         </form>';
       #step 5
       require ('links.php');
-      echo $links;
+      echo '<p>' . $forum . $shop . $home . $logout . '</p>';
       #step 6
       include('includes/footer.php');
     ?>
