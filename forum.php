@@ -38,7 +38,7 @@
       }
       #step 7
 	  require('links.php');
-      echo $links;
+      echo '<p>' . $post . $shop . $home . $logout . '</p>';
       #step 8
       mysqli_close($dbc);
       #step 9
