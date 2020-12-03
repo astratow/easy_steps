@@ -23,11 +23,8 @@
         {$_SESSION['first_name']}{$_SESSION['last_name']}
         </p>";
       #step 5 
-      echo '<p>
-        <a href="forum.php">Forum</a>|
-        <a href="shop.php">Shop</a>|
-        <a href="goodbye.php">Logout</a>|
-        </p>';
+	  require('links.php');
+      echo '<p>' . $forum . $shop . $logout . '</p>';
       include('includes/footer.php');
     ?>
 
