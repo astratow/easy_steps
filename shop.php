@@ -39,6 +39,7 @@
         echo'<p>There are currently no items in this shop. </p>';
       }
       require('links.php');
+      echo '<p>' . $forum . $home . $logout . '</p>';
       include('includes/footer.php');
 
     ?>
