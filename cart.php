@@ -57,5 +57,5 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     echo '<p>Your cart is currently empty.</p>';
     }
 require('links.php');
-echo '<p>' . $forum . $home . $logout . '</p>';
+echo '<p>' . $forum . $home . $till . $logout . '</p>';
 ?>
