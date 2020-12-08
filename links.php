@@ -5,6 +5,7 @@ $cart 	= 	'<a href="cart.php">Cart</a> | ';
 $forum 	= 	'<a href="forum.php">Forum</a> | ';
 $home 	= 	'<a href="home.php">Home</a> | ';
 $till   =   '<a href="checkout.php?total=">Checkout</a> | ';
+# '. $total .' to be added after total=
 $logout =  	'<a href="goodbye.php">Goodbye</a>';
 
 ?>
