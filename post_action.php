@@ -30,10 +30,10 @@
         if(!empty($_POST['subject']) && !empty($_POST['message']) )
 		{
           require('../connectDB.php');
-		  $query_name_first = $_SESSION['first_name'];
-		  $query_name_last = $_SESSION['last_name'];
-		  $query_subject = $_SESSION['subject'];
-		  $query_message = $_SESSION['message'];
+		  $query_name_first = $_SESSION[first_name];
+		  $query_name_last = $_SESSION[last_name];
+		  $query_subject = $_SESSION[subject];
+		  $query_message = $_SESSION[message];
 		  
           $query = "INSERT INTO forum
                       (first_name, last_name, subject, message, post_date)
